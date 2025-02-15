@@ -5,7 +5,6 @@ import {
   Body,
   Patch,
   Param,
-  Delete,
   Inject,
   Query,
   ParseUUIDPipe,
@@ -13,9 +12,7 @@ import {
 import { ClientProxy, RpcException } from '@nestjs/microservices';
 import { catchError } from 'rxjs';
 import { ORDER_SERVICE } from 'src/config';
-import { CreateOrderDto } from './dto/create-order.dto';
-import { PaginationDto } from './dto/pagination-order.dto';
-import { StatusOrderDto } from './dto/status-order.dto';
+import { CreateOrderDto, PaginationDto, StatusOrderDto } from './dto';
 
 @Controller('orders')
 export class OrdersController {

@@ -1,6 +1,6 @@
 # Product Microservice
 
-## Diploy in development
+## Deploy in development
 
 1. Clone the repository
 2. Install dependencies
